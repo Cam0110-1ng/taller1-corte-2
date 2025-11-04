@@ -1,0 +1,260 @@
+# Archivos y directorios a ignorar por Git
+
+# ==================================
+# Archivos del Sistema Operativo
+# ==================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ==================================
+# Editores e IDEs
+# ==================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+*.swp
+*.swo
+*~
+
+# ==================================
+# Lenguajes de Programación
+# ==================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+gradle/
+
+# JavaScript/Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+package-lock.json
+yarn.lock
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# C#/.NET
+bin/
+obj/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+*.DotSettings.user
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+.yardoc/
+
+# Go
+*.exe
+*.test
+*.prof
+vendor/
+
+# ==================================
+# Archivos de Compilación y Build
+# ==================================
+
+# Archivos compilados
+*.com
+*.dll
+*.exe
+*.o
+*.so
+
+# Directorios de build
+build/
+dist/
+target/
+out/
+bin/
+
+# ==================================
+# Archivos de Log y Temporales
+# ==================================
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# Archivos temporales
+*.temp
+*.tmp
+*~
+.*.swp
+.#*
+
+# ==================================
+# Bases de Datos
+# ==================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================================
+# Archivos de Configuración Local
+# ==================================
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuración local
+config.local.*
+*.local
+
+# ==================================
+# Dependencias y Paquetes
+# ==================================
+
+# Directorios de dependencias
+node_modules/
+bower_components/
+vendor/
+packages/
+
+# Archivos de paquetes
+*.zip
+*.tar.gz
+*.rar
+
+# ==================================
+# Documentación Generada
+# ==================================
+
+# Documentación autogenerada
+docs/_build/
+site/
+_site/
+
+# ==================================
+# Testing
+# ==================================
+
+# Cobertura de código
+coverage/
+.nyc_output/
+*.lcov
+
+# ==================================
+# Otros
+# ==================================
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.old
+*~
+
+# Archivos de caché
+.cache/
+*.cache
+
+# Archivos de IDE específicos del usuario
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
